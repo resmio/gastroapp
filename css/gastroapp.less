@@ -1,0 +1,185 @@
+body {
+  position: relative;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  #top-nav {
+    > div {
+      list-style: none;
+      text-align: center;
+      a {
+        display: block;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 10px 0;
+        text-rendering: optimizelegibility;
+        color: #333;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    background-color: #EEE;
+  }
+}
+#main-section {
+  overflow: hidden;
+  margin-bottom: 10px;
+  #hero-section {
+    position: static;
+    width: 940px;
+    height: 870px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  #mask {
+    width: 1934px;
+    height: 870px;
+    margin: 0 -497px;
+  }
+  #view {
+    width: 100%;
+    height: 870px;
+    position: relative;
+  }
+  #phone-container {
+    z-index: 3;
+    position: absolute;
+    top: 80px;
+    left: 560px;
+    width: 306px;
+    height: 599px;
+
+    iframe {
+      height: 236px;
+      position: absolute;
+      top: 64px;
+      left: 14px;
+    }
+  }
+  #request-info {
+    z-index: 3;
+    position: absolute;
+    top: 180px;
+    left: 880px;
+    color: #FFF;
+    .wrapper {
+
+      padding: 20px;
+      background: #ccc;
+      background: rgba(153, 153, 153, 0.5);
+      margin-bottom: 10px;
+      .cooperation {
+        > div {
+          font-size: 18px;
+        }
+      }
+      .appyourself {
+        color: #4181c2;
+        font-size: 18px;
+      }
+      .resmio {
+        img {
+          margin-top: -5px;
+        }
+      }
+    }
+    h2, h4 {
+      text-shadow: 0px 1px 0 #333;
+    }
+    .btn {
+      font-size: 24px;
+    }
+  }
+  #background-image {
+    position: absolute;
+    width: 1934px;
+    height: 870px;
+    background-repeat: no-repeat;
+  }
+  .smartphone-users {
+    text-align: center;
+    font-weight: normal;
+  }
+}
+#facts {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  > div {
+    text-align: right;
+  }
+}
+#overview-section, #features-section, #contact-section, #description-section {
+  margin-bottom: 40px;
+  padding: 20px 0;
+
+  .title {
+    margin-bottom: 20px;
+  }
+}
+.box {
+  background-color:  #f6f6f6;
+}
+.center {
+  text-align: center;
+}
+#overview-section {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+#description-section {
+  font-size: 16px;
+  .pull-left {
+    margin-right: 40px;
+  }
+  img {
+    margin-left: 20px;
+  }
+  p {
+    margin-bottom: 40px;
+  }
+}
+#features-section {
+  text-align: left;
+
+  .row:last-child {
+    margin-top: 20px;
+  }
+}
+#contact-section {
+  font-size: 16px;
+  .alert {
+    font-size: 18px;
+    .phone {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  }
+  .contact-info {
+    margin-top: 46px;
+  }
+  p {
+    margin-bottom: 40px;
+  }
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #EEE;
+  padding: 20px;
+  text-shadow: 0 1px 0 white;
+  border-top: 1px solid #E5E5E5;
+  -webkit-box-shadow: inset 0 5px 15px rgba(0,0,0,.025);
+  -moz-box-shadow: inset 0 5px 15px rgba(0,0,0,.025);
+  li {
+    list-style-type: none;
+  }
+}
