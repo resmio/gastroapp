@@ -127,6 +127,9 @@ body {
 .center {
   text-align: center;
 }
+#overview-section p {
+  font-size: 16px;
+}
 #overview-section img {
   display: block;
   margin: 0 auto;
@@ -145,6 +148,9 @@ body {
 }
 #features-section {
   text-align: left;
+}
+#features-section p {
+  font-size: 16px;
 }
 #features-section .row:last-child {
   margin-top: 20px;
