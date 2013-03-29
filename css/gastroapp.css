@@ -32,18 +32,18 @@ body {
 #main-section #hero-section {
   position: static;
   width: 940px;
-  height: 870px;
+  height: 747px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
 #main-section #mask {
   width: 1934px;
-  height: 870px;
+  height: 747px;
   margin: 0 -497px;
 }
 #main-section #view {
   width: 100%;
-  height: 870px;
+  height: 747px;
   position: relative;
 }
 #main-section #phone-container {
